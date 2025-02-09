@@ -139,7 +139,7 @@ int main(){
 
             ssd1306_fill(&ssd, false); // Limpa o display
 
-            // Verifica se a tecla digitada é D, d, L ou l
+            // Verifica se a tecla digitada é 'D', 'd', 'L' ou 'l'
             if (c == 'D' || c == 'd' || c == 'L' || c == 'l'){
                 // Exibe o caractere D, d, L ou l
                 char texto[2] = {c, '\0'}; // Cria uma string com o caractere
