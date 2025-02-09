@@ -48,9 +48,9 @@ Este projeto utiliza um **Raspberry Pi Pico W** para controlar uma **matriz de L
 
 ### **2. Uso do Programa**
 - **Comandos via UART:**
-  - **'D' ou 'd'**: Desliga a matriz de LEDs.
-  - **'L' ou 'l'**: Liga a matriz de LEDs.
-  - **Caracteres de A-Z e de a-z**
+  - **'D' ou 'd'**: Desliga a matriz de LEDs e aparece no display.
+  - **'L' ou 'l'**: Liga a matriz de LEDs e aparece no display.
+  - **Caracteres de A-Z e de a-z**: Exibidas no display
   - **Números de 0 a 9**: Atualiza a animação da matriz com um padrão predefinido.
 - **Botões Físicos:**
   - **Botão A (GPIO 5)**: Liga/desliga o LED verde.
