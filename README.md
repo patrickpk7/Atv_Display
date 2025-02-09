@@ -6,7 +6,7 @@ Este projeto utiliza um **Raspberry Pi Pico W** para controlar uma **matriz de L
 ### **Principais Funcionalidades:**
 - Controle da matriz de LEDs RGB utilizando **PIO (Programável I/O)**.
 - Exibição de informações em um **display OLED SSD1306**.
-- Leitura de comandos via **UART (serial)** para acionar diferentes animações na matriz.
+- Leitura de comandos via **UART (serial)** para acionar diferentes animações na matriz e leituras de caracteres.
 - Uso de **botões físicos** para alternar LEDs individuais (verde e azul).
 
 ## **Hardware Necessário**
@@ -50,6 +50,7 @@ Este projeto utiliza um **Raspberry Pi Pico W** para controlar uma **matriz de L
 - **Comandos via UART:**
   - **'D' ou 'd'**: Desliga a matriz de LEDs.
   - **'L' ou 'l'**: Liga a matriz de LEDs.
+  - **Caracteres de A-Z e de a-z**
   - **Números de 0 a 9**: Atualiza a animação da matriz com um padrão predefinido.
 - **Botões Físicos:**
   - **Botão A (GPIO 5)**: Liga/desliga o LED verde.
