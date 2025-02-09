@@ -59,5 +59,6 @@ Este projeto utiliza um **Raspberry Pi Pico W** para controlar uma **matriz de L
 ## **Autor**
 - [Patrick Chagas](https://github.com/patrickpk7)
 
-
+## **LINK PARA VÍDEO**
+- https://drive.google.com/file/d/1-DXoKZd-4RlSO__XtsYrszesHCqy_i7T/view?usp=sharing
 
